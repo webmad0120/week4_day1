@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ES6</title>
+</head>
+
+<body>
+
+    <script>
+
+        // // Object destructuring
+
+        // const person = {
+        //     name: 'ger',
+        //     age: 33,
+        //     celiac: false,
+        //     hobbies: ['sky', 'beer'],
+        //     proffesion: {
+        //         name: 'teacher',
+        //         address: {
+        //             street: 'paseo chopera',
+        //             pc: 28100
+        //         }
+        //     }
+        // }
+
+        // // const name = person.name
+        // // const age = person.age
+        // // const celiac = person.celiac
+        // const { name, age, celiac, proffesion } = person
+        // console.log(name, age, celiac)
+        // console.log('Los objetos anidados son extraídos en su totalidad', proffesion)
+
+        // // const hobbies = person.hobbies
+        // const { hobbies } = person
+        // console.log(hobbies)
+
+
+
+
+
+
+        // // Array destructuring
+
+        // const drinks = ['coca-cola', 'cacaolat', 'bailies choco', 'beer']
+        // const [drink1, , drink3] = drinks
+        // console.log(drink1, drink3)
+
+
+
+
+
+        // Spread operator: array merging
+
+        // const drinks = ['coca-cola', 'cacaolat', 'bailies choco', 'beer']
+        // const foods = ['churros', 'donuts']
+
+        // const menu = [...drinks, ...foods, 'chocochurrosx']
+        // console.log(menu)
+
+
+
+
+
+
+        // // REST parameters
+
+        // function newMovie(title, director, duration, ...actors) {
+
+        //     console.log(`La película ${title}, dirigida por ${director} dura ${duration} min y la protagonizan:`)
+        //     // console.log(arguments[3])
+        //     // console.log(arguments[4])
+
+        //     actors.forEach(elm => console.log(`- ${elm}`))
+        // }
+
+        // newMovie('Titanic', 'Cameron', 185, 'Leo', 'Kate', 'La señora de los chistes', 'El malo')
+
+
+
+
+
+        // Default parameters 
+
+        // const getTotals = (cost, benefit, tax = 1.21) => (cost + benefit) * tax
+
+        // const iceCreamPrice = getTotals(200, 20)
+        // const coffeCreamPrice = getTotals(200, 20, 1)
+        // console.log(iceCreamPrice.toFixed(2))
+        // console.log(coffeCreamPrice.toFixed(2))
+
+
+
+
+
+    </script>
+</body>
+
+</html>
