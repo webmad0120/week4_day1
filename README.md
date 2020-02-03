@@ -25,7 +25,7 @@ const { name, age, hobbies } = person
 ````javascript
 const drinks = ['coca-cola', 'cacaolat', 'beer', 'lemonade']
 const [drink1, , drink3] = drinks
-`````
+````
 
 ## Main points: REST parameters & default parameters
 
@@ -35,13 +35,13 @@ const [drink1, , drink3] = drinks
 const fn = (par1, par2, ...pars) => pars.forEach(elm => console.log(elm))  // 3, 4, 5
 
 fn(1, 2, 3, 4, 5)
-`````
+````
 
 - Al igual que aplicar un valor por defecto sobre cualquiera de ellos
 
 ````javascript
 function fn(par1 = 'value 1', par2 = 'value 2') {/* ... */}
-`````
+````
 
 ## Main points: Comandos NPM
 
