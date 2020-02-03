@@ -45,8 +45,8 @@ function fn(par1 = 'value 1', par2 = 'value 2') {/* ... */}
 
 ## Main points: Comandos NPM
 
-- `npm init`: comienza un proyecto de NPM creando package.json
-- `npm install`: instala las dependencias del archivo package.json presente en el directorio  (shortcut `npm i`)
+- `npm init`: comienza un proyecto de NPM creando `package.json`
+- `npm install`: instala las dependencias del archivo `package.json` presente en el directorio  (shortcut `npm i`)
 - `npm install`*`module_name`*: instala el módulo indicado en el proyecto de NPM (shortcut `npm i`*`module_name`*), lo que supone:
   - Referenciarlo en el archivo `package.json` bajo la propiedad `dependencies`
   - Incluir sus archivos en el directorio `node_modules`
