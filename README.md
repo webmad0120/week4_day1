@@ -40,7 +40,9 @@
 - Al igual que aplicar un valor por defecto sobre cualquiera de ellos
 
  ````javascript
- function fn(par1 = 'value 1', par2 = 'value 2') {/* ... */}
+ function fn(par1 = 'value 1', par2 = 'value 2') {
+   /* ... */
+ }
  ````
 
 ## Main points: Comandos NPM
