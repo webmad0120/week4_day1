@@ -11,37 +11,37 @@
 
 - Cuando los nombres de las variables coincidenc on los nombres de las propiedades a extraer de un obejto, la técnica de destructuración permite un código más liviano:
 
-````javascript
-const person = {
-  name: 'ger',
-  age: 33,
-  hobbies: ['sky', 'beer']
-}
-const { name, age, hobbies } = person
-````
+ ````javascript
+ const person = {
+   name: 'ger',
+   age: 33,
+   hobbies: ['sky', 'beer']
+ }
+ const { name, age, hobbies } = person
+ ````
 
 - Igualmente es posible aplicar una técnica similar frente a los Arrays:
 
-````javascript
-const drinks = ['coca-cola', 'cacaolat', 'beer', 'lemonade']
-const [drink1, , drink3] = drinks
-````
+ ````javascript
+ const drinks = ['coca-cola', 'cacaolat', 'beer', 'lemonade']
+ const [drink1, , drink3] = drinks
+ ````
 
 ## Main points: REST parameters & default parameters
 
 - Es posible aunar todos los parámetros restantes en un Array mediante el operador de propagación:
 
-````javascript
-const fn = (par1, par2, ...pars) => pars.forEach(elm => console.log(elm))  // 3, 4, 5
+ ````javascript
+ const fn = (par1, par2, ...pars) => pars.forEach(elm => console.log(elm))  // 3, 4, 5
 
-fn(1, 2, 3, 4, 5)
-````
+ fn(1, 2, 3, 4, 5)
+ ````
 
 - Al igual que aplicar un valor por defecto sobre cualquiera de ellos
 
-````javascript
-function fn(par1 = 'value 1', par2 = 'value 2') {/* ... */}
-````
+ ````javascript
+ function fn(par1 = 'value 1', par2 = 'value 2') {/* ... */}
+ ````
 
 ## Main points: Comandos NPM
 
